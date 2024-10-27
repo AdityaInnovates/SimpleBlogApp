@@ -1,5 +1,3 @@
-# Issue Template
-
 **Issue Type**: Bug / Feature Request / Enhancement
 
 **Description**:
