@@ -9,7 +9,7 @@ Thank you for considering contributing to this project! Follow these guidelines 
 1. **Create a Unique Blog ID**:
    - Generate a unique ID for your blog post.
    
-2. **Update `blogslist.json`**([Mardown Editor](https://pandao.github.io/editor.md/en.html "Mardown editor")):
+2. **Update `blogslist.json`**:
    - Add your blog's metadata to `blogslist.json` in the following format:
      ```json
      {
@@ -20,7 +20,7 @@ Thank you for considering contributing to this project! Follow these guidelines 
      }
      ```
 
-3. **Create Content in Markdown**:
+3. **Create Content in Markdown**([Mardown Editor](https://pandao.github.io/editor.md/en.html "Mardown editor")):
    - In the `blogs` folder, create a new markdown file named after your blog ID (e.g., `unique_blog_id.md`).
    - Write the main content of your blog post within this file.
 
