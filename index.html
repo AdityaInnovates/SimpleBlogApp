@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Alegreya+Sans&family=Barlow:ital,wght@1,600&family=Berkshire+Swash&family=Dosis&family=Exo+2:wght@300&family=Josefin+Sans&family=Kanit&family=Lato&family=Poppins:wght@300&family=Roboto+Condensed:wght@300&family=Rubik&family=Staatliches&family=Ubuntu&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Python problem solving blogs</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar Code -->
+    <nav>
+      <div>
+        <div
+          style="
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            padding-left: 1.5rem;
+            padding-right: 1rem;
+          "
+        >
+          <i style="scale: 3" class="fa-brands fa-python"></i>
+          <h2 style="font-family: outfit; font-weight: 700; padding-left: 1rem">
+            DSA In Python Blogs
+          </h2>
+        </div>
+        <hr style="height: 1px; border: none; background: rgba(0, 0, 0, 0.2)" />
+      </div>
+    </nav>
+    <!-- Navbar Code -->
+    <!-- Blog List Code -->
+    <div class="container"></div>
+    <!-- Blog List Code -->
+    <!-- Footer Code -->
+    <div
+      style="
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      "
+    >
+      Made with ❤️ By
+      <a style="margin-left: 0.3rem" href="contributors.html">Contributors</a>
+    </div>
+    <!-- Footer Code -->
+    <!-- Scripts -->
+    <script>
+      (async () => {
+        const response = await fetch(`blogsList.json`); // replace "yourfile.md" with your actual file path
+        const Liist = await response.text();
+        var BlogList = JSON.parse(Liist);
+
+        for (var blog of BlogList) {
+          var html = `<img onclick='window.open("blog.html?blogid=${blog.id}","_self")' src="${blog.image}" alt="" />
+      <h3>${blog.title}</h3>
+      <p>
+       ${blog.desciption}
+      </p>
+      <div>
+        <button onclick='window.open("blog.html?blogid=${blog.id}","_self")' >
+          <h3>Read more</h3>
+          <i style="color: gray" class="fa-solid fa-angles-right"></i>
+        </button>
+      </div>`;
+          var elem = document.createElement("div");
+          elem.className = "container-item";
+          elem.innerHTML = html;
+          document.querySelector(".container").appendChild(elem);
+        }
+      })();
+    </script>
+    <!-- Scripts -->
+  </body>
+</html>

@@ -1,0 +1,45 @@
+#markdown-container {
+  margin-inline: 5rem;
+}
+body {
+  font-family: outfit, rubik;
+}
+pre {
+  background-color: #2d2d2d; /* Dark background color */
+  color: #f8f8f2; /* Light text color */
+  padding: 16px; /* Adds padding around the text */
+  border-radius: 6px; /* Rounded corners */
+  overflow-x: auto; /* Horizontal scrolling for long lines */
+  font-family: "Courier New", Courier, monospace; /* Monospace font */
+  font-size: 14px; /* Set font size */
+  line-height: 1.5; /* Line height for readability */
+  white-space: pre-wrap; /* Wraps lines only if necessary */
+}
+.back-button {
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0.9rem;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 10px;
+  transition: all;
+  transition-duration: 300ms;
+  background: transparent;
+  width: min-content;
+  margin-left: 5rem;
+}
+@media only screen and (max-width: 600px) {
+  #markdown-container {
+    margin-inline: 0rem;
+  }
+  .back-button {
+    margin-left: 0rem;
+  }
+}

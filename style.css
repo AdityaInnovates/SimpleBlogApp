@@ -1,0 +1,102 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+body {
+  background-color: whitesmoke;
+  font-family: outfit, rubik;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  min-height: 80vh;
+}
+.container-item {
+  background-color: white;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 1rem;
+  height: min-content;
+}
+.container-item > img {
+  width: 100%;
+  border-radius: 5px;
+}
+.container-item > img:hover {
+  cursor: pointer;
+}
+.container-item > img:hover + h3 {
+  text-decoration: underline;
+}
+.container-item > h3 {
+  transition: all;
+  transition-duration: 200ms;
+  cursor: pointer;
+  margin: 0rem;
+  margin-top: 0.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+
+  /* text-decoration: solid; */
+}
+.container-item > h3:hover {
+  text-decoration: underline;
+}
+.container-item > p {
+  font-size: 10px;
+  color: gray;
+  line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  padding: 0;
+}
+.container-item > div > button > h3 {
+  margin: 0;
+  padding: 0;
+  font-family: rubik;
+  font-weight: 100;
+}
+.container-item > div > button {
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 0.9rem;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 10px;
+  transition: all;
+  transition-duration: 300ms;
+  background: transparent;
+}
+.container-item > div > button:hover {
+  border: 1px solid rgb(187, 187, 187);
+  background: rgba(0, 0, 0, 0.01);
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .container-item > h3 {
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .container-item {
+    background-color: white;
+    border-radius: 5px;
+    margin: 0.3rem;
+    padding: 0.8rem;
+  }
+}

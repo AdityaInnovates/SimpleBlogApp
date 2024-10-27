@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+
+/* Style the navbar */
+.navbar {
+  background: linear-gradient(
+    to right,
+    #3498db,
+    #2980b9
+  ); /* Gradient background */
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+  position: sticky; /* For modern browsers */
+  top: 0; /* Sticks to the top of the page */
+  z-index: 1000; /* Ensures it's above other elements */
+  transition: background-color 0.3s ease; /* Smooth transition for background change */
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox for spacing */
+}
+
+.nav-item {
+  margin: 0 15px; /* Spacing between items */
+}
+
+.nav-item a {
+  display: block;
+  color: white; /* Change to white for contrast */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.nav-item a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+  color: #ecf0f1; /* Lighter text color */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    width: 80%;
+    font-size: 2em; /* Adjust font size for smaller screens */
+  }
+  .nav-item {
+    margin: 0 10px; /* Reduce spacing for smaller screens */
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #fffbf3;
+}
+
+* {
+  text-decoration: none;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #333333d3;
+}
+
+.bottom-btn {
+  z-index: 9;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.light-text {
+  color: #a5a5a5;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow-x: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/* Card CSS */
+.admin-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow-x: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card-body {
+  display: flex;
+  padding: 20px;
+  background-color: #f8f2e8;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ebbb68;
+}
+
+.card-body:hover {
+  transform: scale(1.15);
+  transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.card-img img {
+  border: 2px solid #ebbb68;
+}
+
+.card-header img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #555;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.card-img {
+  position: relative;
+  flex: 1;
+}
+
+.card-text {
+  flex: 2;
+}
+
+.card-icon {
+  text-align: center;
+}
+
+.card-text h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card-text p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.card-footer {
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #3498db;
+}
+
+.card-footer a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #2980b9;
+}
+
+.card-footer a:hover {
+  background-color: #1f639e;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+/* Mobile-First Responsive Design */
+@media (max-width: 768px) {
+  header {
+    font-size: 20px;
+  }
+
+  .landing-text {
+    font-size: 4rem;
+  }
+
+  .landing-text-2 {
+    font-size: 0.7rem;
+  }
+
+  .container {
+    margin-top: 2rem;
+    max-width: 85%;
+    padding: 10px;
+  }
+
+  #input {
+    width: 60%;
+    font-size: 12px;
+  }
+
+  #button {
+    padding: 8px 16px;
+  }
+
+  .navbar {
+    width: 90%;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  footer {
+    margin-top: 26vh;
+    font-size: 12px;
+    padding: 2px;
+  }
+}
+
+/* Footer styling */
+footer {
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  color: black;
+  text-align: center;
+  padding: 5px;
+  margin-top: 2px;
+}
+
+/* Scroll to top button */
+.to-top {
+  z-index: 10;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  pointer-events: none;
+  width: auto;
+  height: auto;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  text-decoration: none;
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.to-top img {
+  display: block;
+}
+
+.to-top .fa-arrow-up {
+  position: absolute;
+}
+
+.to-top.active {
+  cursor: pointer;
+  pointer-events: auto;
+  opacity: 1;
+}

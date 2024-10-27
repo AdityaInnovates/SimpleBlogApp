@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Alegreya+Sans&family=Barlow:ital,wght@1,600&family=Berkshire+Swash&family=Dosis&family=Exo+2:wght@300&family=Josefin+Sans&family=Kanit&family=Lato&family=Poppins:wght@300&family=Roboto+Condensed:wght@300&family=Rubik&family=Staatliches&family=Ubuntu&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/blog-styles.css" />
+
+    <title>Blog</title>
+  </head>
+  <body>
+    <!-- Navbar Code -->
+    <nav>
+      <div>
+        <div
+          style="
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            padding-left: 1.5rem;
+            padding-right: 1rem;
+          "
+        >
+          <i style="scale: 3" class="fa-brands fa-python"></i>
+          <h2 style="font-family: outfit; font-weight: 700; padding-left: 1rem">
+            DSA In Python Blogs
+          </h2>
+        </div>
+        <hr style="height: 1px; border: none; background: rgba(0, 0, 0, 0.2)" />
+      </div>
+    </nav>
+    <!-- Navbar Code -->
+    <div class="back">
+      <a href="./" class="back-button" style="text-decoration: none">
+        <i
+          style="color: gray; rotate: 180deg; text-decoration: none; scale: 1.3"
+          class="fa-solid fa-angles-right"
+        ></i>
+        <h2 style="margin: 0; padding: 0">BACK</h2>
+      </a>
+    </div>
+    <!-- Blog Body Code -->
+    <div id="markdown-container"></div>
+
+    <!-- Blog Body Code -->
+    <!-- Footer Code -->
+    <div
+      style="
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      "
+    >
+      Made with ❤️ By
+      <a style="margin-left: 0.3rem" href="contributors.html">Contributors</a>
+    </div>
+    <!-- Footer Code -->
+    <!-- Scripts -->
+    <script>
+      // Create a Showdown converter
+      const converter = new showdown.Converter();
+
+      // Function to fetch and convert Markdown
+      async function renderMarkdown() {
+        try {
+          // Fetch your markdown file
+          const response = await fetch(
+            `blogs/${new URL(window.location).searchParams.get("blogid")}.md`
+          ); // replace "yourfile.md" with your actual file path
+          const markdown = await response.text();
+
+          // Convert markdown to HTML
+          const html = converter.makeHtml(markdown);
+
+          // Inject HTML into the container
+          document.getElementById("markdown-container").innerHTML = html;
+        } catch (error) {
+          console.error("Error fetching or rendering markdown:", error);
+        }
+      }
+
+      // Call the function to render Markdown
+      renderMarkdown();
+    </script>
+    <!-- Scripts -->
+  </body>
+</html>
