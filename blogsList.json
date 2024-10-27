@@ -14,13 +14,13 @@
   {
     "id": "fb3w4cbw43sa",
     "image": "https://miro.medium.com/v2/resize:fit:1400/1*TnkzeYKY653YXS9jZ6oapg.png",
-    "title": "Finding the Maximum Element in an Array",
+    "title": "Maximum Element in an Array",
     "desciption": "The Maximum Element algorithm is a simple way to find the largest number in an array. Starting with an initial assumption of the maximum element, we iterate through each element in the array, updating our assumption whenever we find a larger element. This method works well for both sorted and unsorted arrays."
   },
   {
     "id": "dfrt54fegr54t",
     "image": "https://favtutor.com/resources/images/uploads/Python_Count_occurences_of_element_in_list.png",
-    "title": "Counting Occurrences of an Element in an Array",
+    "title": "Count of Element in an Array",
     "desciption": "The Counting Occurrences algorithm is a simple way to find how many times a specific element appears in an array. It works by iterating through each element in the array and counting each match to the target value. This approach is useful in both sorted and unsorted arrays."
   }
 ]
