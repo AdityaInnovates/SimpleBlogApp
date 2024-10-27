@@ -3,24 +3,32 @@
     "id": "7654321",
     "image": "public/blog1.jpeg",
     "title": "Captain and List Operations",
-    "desciption": "Once upon a time in the Kingdom of Codehaven, there lived a legendary adventurer known as Captain Python. Captain Python was renowned for his mastery of Pythonic arts—skills that helped him navigate through the most difficult programming challenges."
+    "description": "Once upon a time in the Kingdom of Codehaven, there lived a legendary adventurer known as Captain Python. Captain Python was renowned for his mastery of Pythonic arts—skills that helped him navigate through the most difficult programming challenges."
   },
   {
     "id": "86vtgil6uicfd5",
     "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240506105158/Linear-Search-algorithm-banner-(1).webp",
     "title": "Linear Search Algorithm",
-    "desciption": "The Linear Search algorithm is one of the most straightforward search techniques. In a linear search, we sequentially check each element of a list or array until we find the target value or reach the end of the list. Although simple, this algorithm is effective for small datasets or unsorted data, as it does not require pre-sorting."
+    "description": "The Linear Search algorithm is one of the most straightforward search techniques. In a linear search, we sequentially check each element of a list or array until we find the target value or reach the end of the list. Although simple, this algorithm is effective for small datasets or unsorted data, as it does not require pre-sorting."
   },
   {
     "id": "fb3w4cbw43sa",
     "image": "https://miro.medium.com/v2/resize:fit:1400/1*TnkzeYKY653YXS9jZ6oapg.png",
     "title": "Maximum Element in an Array",
-    "desciption": "The Maximum Element algorithm is a simple way to find the largest number in an array. Starting with an initial assumption of the maximum element, we iterate through each element in the array, updating our assumption whenever we find a larger element. This method works well for both sorted and unsorted arrays."
+    "description": "The Maximum Element algorithm is a simple way to find the largest number in an array. Starting with an initial assumption of the maximum element, we iterate through each element in the array, updating our assumption whenever we find a larger element. This method works well for both sorted and unsorted arrays."
   },
   {
     "id": "dfrt54fegr54t",
     "image": "https://favtutor.com/resources/images/uploads/Python_Count_occurences_of_element_in_list.png",
     "title": "Count of Element in an Array",
-    "desciption": "The Counting Occurrences algorithm is a simple way to find how many times a specific element appears in an array. It works by iterating through each element in the array and counting each match to the target value. This approach is useful in both sorted and unsorted arrays."
+    "description": "The Counting Occurrences algorithm is a simple way to find how many times a specific element appears in an array. It works by iterating through each element in the array and counting each match to the target value. This approach is useful in both sorted and unsorted arrays."
+  },
+  {
+    "id": "blog_id_4",  
+    "image": "public/my_blog_image.jpeg",  
+    "title": "Understanding Recursion in Python",  
+    "description": "A deep dive into recursion, explaining how it works, its use cases, and examples to help understand this fundamental concept in programming." 
   }
+]
+
 ]
