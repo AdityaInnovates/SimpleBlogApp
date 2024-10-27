@@ -1,5 +1,3 @@
-# Pull Request Template
-
 **Related Issue(s)**:
 - Issue number or link
 
