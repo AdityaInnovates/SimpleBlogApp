@@ -9,7 +9,7 @@ Thank you for considering contributing to this project! Follow these guidelines 
 1. **Create a Unique Blog ID**:
    - Generate a unique ID for your blog post.
    
-2. **Update `blogslist.json`**:
+2. **Update `blogslist.json`**([Mardown Editor](https://pandao.github.io/editor.md/en.html "Mardown editor")):
    - Add your blog's metadata to `blogslist.json` in the following format:
      ```json
      {
