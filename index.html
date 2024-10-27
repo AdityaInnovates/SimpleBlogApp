@@ -62,7 +62,8 @@
         var BlogList = JSON.parse(Liist);
 
         for (var blog of BlogList) {
-          var html = `<img onclick='window.open("blog.html?blogid=${blog.id}","_self")' src="${blog.image}" alt="" />
+          var html = `
+          <div class='img-wrapper'><img onclick='window.open("blog.html?blogid=${blog.id}","_self")' src="${blog.image}" alt="" /></div>
       <h3>${blog.title}</h3>
       <p>
        ${blog.desciption}
