@@ -7,7 +7,7 @@ Thank you for considering contributing to this project! Follow these guidelines 
 ### 1. Add a Blog Post
 
 1. **Create a Unique Blog ID**:
-   - Generate a unique ID for your blog post.
+   - Generate a unique ID for your blog post([Random ID Generator](https://www.uuidgenerator.net/)).
 
 2. **Update `blogslist.json`**:
    - Add your blog's metadata to `blogslist.json` in the following format:
