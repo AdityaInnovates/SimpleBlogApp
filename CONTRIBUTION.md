@@ -45,7 +45,7 @@ To submit your contribution, follow these steps to raise a pull request:
 2. **Clone the Forked Repository**:
    - Clone the repository to your local machine using:
      ```bash
-     git clone https://github.com/AdityaInnovates/SimpleBlogApp.git
+     git clone https://github.com/your_github_username/your_repo_name.git
      ```
 
 3. **Create a New Branch**:
