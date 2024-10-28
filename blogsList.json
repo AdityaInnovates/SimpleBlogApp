@@ -31,7 +31,7 @@
   },
   {
     "id": "unique_blog_id_5",
-    "image": "path/to/image",
+    "image": "https://www.freecodecamp.org/news/content/images/2021/07/list-comprehension.png",
     "title": "Understanding List Comprehensions in Python",
     "description": "A concise way to create lists in Python."
   }
