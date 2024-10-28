@@ -40,5 +40,11 @@
         "image": "https://www.trytoprogram.com/images/python-directory-management.jpg",
         "title": "Understanding Dictionaries in Python",
         "description": "Key-value pairs for data storage in Python."
+    },
+    {
+      "id": "Bubble_Sort_Vlog",
+        "image": "https://cdn.educba.com/academy/wp-content/uploads/2020/03/bubble-sort-algprithm.jpg",
+        "title": "Understanding Bubble Sorting in Python",
+        "description": "Algorithm for Bubble Sort in Python."
     }
 ]
