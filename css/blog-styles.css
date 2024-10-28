@@ -35,11 +35,17 @@ pre {
   width: min-content;
   margin-left: 5rem;
 }
+p > img {
+  height: 15em;
+}
 @media only screen and (max-width: 600px) {
   #markdown-container {
     margin-inline: 0rem;
   }
   .back-button {
     margin-left: 0rem;
+  }
+  p > img {
+    width: 100%;
   }
 }
