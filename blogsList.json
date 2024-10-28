@@ -30,13 +30,13 @@
     "description": "A deep dive into recursion, explaining how it works, its use cases, and examples to help understand this fundamental concept in programming." 
   },
   {
-    "id": "unique_blog_id_5",
+    "id": "blog_id_5",
     "image": "https://www.freecodecamp.org/news/content/images/2021/07/list-comprehension.png",
     "title": "Understanding List Comprehensions in Python",
     "description": "A concise way to create lists in Python."
   },
     {
-        "id": "unique_blog_id_6",
+        "id": "blog_id_6",
         "image": "https://www.trytoprogram.com/images/python-directory-management.jpg",
         "title": "Understanding Dictionaries in Python",
         "description": "Key-value pairs for data storage in Python."
