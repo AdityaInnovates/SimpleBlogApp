@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmarked Blogs</title>
+  <link rel="stylesheet" href="css/index-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+  <h1>Bookmarked Blogs</h1>
+  <div class="container"></div>
+
+  <script>
+    (async () => {
+      const response = await fetch('blogsList.json');
+      const BlogList = await response.json();
+
+      const bookmarkedBlogs = JSON.parse(localStorage.getItem('bookmarkedBlogs')) || [];
+      const bookmarkedList = BlogList.filter(blog => bookmarkedBlogs.includes(blog.id));
+
+      const container = document.querySelector('.container');
+      if (bookmarkedList.length === 0) {
+        container.innerHTML = '<p>No bookmarked blogs found.</p>';
+      } else {
+        bookmarkedList.forEach(blog => {
+          const blogElement = document.createElement('div');
+          blogElement.className = 'container-item';
+          blogElement.innerHTML = `
+            <div class="img-wrapper">
+              <img onclick='window.open("blog.html?blogid=${blog.id}","_self")' src="${blog.image}" alt="">
+            </div>
+            <h3>${blog.title}</h3>
+            <p>${blog.description}</p>
+            <div>
+              <button onclick='window.open("blog.html?blogid=${blog.id}","_self")'>
+                <h3>Read more</h3>
+                <i style="color: gray" class="fa-solid fa-angles-right"></i>
+              </button>
+            </div>
+          `;
+          container.appendChild(blogElement);
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
