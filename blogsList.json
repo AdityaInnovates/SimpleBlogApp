@@ -22,5 +22,11 @@
     "image": "https://favtutor.com/resources/images/uploads/Python_Count_occurences_of_element_in_list.png",
     "title": "Count of Element in an Array",
     "description": "The Counting Occurrences algorithm is a simple way to find how many times a specific element appears in an array. It works by iterating through each element in the array and counting each match to the target value. This approach is useful in both sorted and unsorted arrays."
+  },
+  {
+    "id": "blog_id_4",  
+    "image": "public/blog1.jpeg",  
+    "title": "Understanding Recursion in Python",  
+    "description": "A deep dive into recursion, explaining how it works, its use cases, and examples to help understand this fundamental concept in programming." 
   }
 ]
