@@ -1,7 +1,3 @@
-
-#### For `blog_id_7.md` (Generators)
-
-```markdown
 # Understanding Generators in Python
 
 ## Introduction
@@ -25,3 +21,4 @@ def fibonacci(n):
 # Using the generator
 for num in fibonacci(10):
     print(num)  
+```
