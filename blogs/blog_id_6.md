@@ -1,7 +1,3 @@
-
-#### For `blog_id_6.md` (Dictionaries)
-
-```markdown
 # Understanding Dictionaries in Python
 
 ## Introduction
@@ -24,3 +20,4 @@ student = {
 
 print(student["name"])  # Output: John Doe
 print(student.get("age"))  # Output: 21
+```
