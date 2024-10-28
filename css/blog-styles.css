@@ -46,6 +46,7 @@ p > img {
     margin-left: 0rem;
   }
   p > img {
+    height: auto;
     width: 100%;
   }
 }
