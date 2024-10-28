@@ -36,3 +36,4 @@ array = [1, 3, 5, 7, 9, 11]
 target = 7
 result = binary_search(array, target)
 print("Target found at index:", result)  # Output: Target found at index: 3
+```
