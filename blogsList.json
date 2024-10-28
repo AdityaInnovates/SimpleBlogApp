@@ -58,5 +58,10 @@
     "image": "https://cdn.educba.com/academy/wp-content/uploads/2020/03/bubble-sort-algprithm.jpg",
     "title": "Understanding Bubble Sorting in Python",
     "description": "Algorithm for Bubble Sort in Python."
-  }
+  },{
+      "id": "Insertion_sort_blog",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSgQTiBxIRkH11I3UVfiHh5tlXVjCQ5yQiiw&s",
+        "title": "Understanding Incersion Sorting in Python",
+        "description": "Algorithm for Incersion Sort in Python."
+    }
 ]
