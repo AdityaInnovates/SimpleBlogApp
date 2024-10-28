@@ -25,7 +25,7 @@
   },
   {
     "id": "blog_id_4",  
-    "image": "public/my_blog_image.jpeg",  
+    "image": "public/blog1.jpeg",  
     "title": "Understanding Recursion in Python",  
     "description": "A deep dive into recursion, explaining how it works, its use cases, and examples to help understand this fundamental concept in programming." 
   }
