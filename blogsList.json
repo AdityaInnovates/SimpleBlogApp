@@ -40,5 +40,11 @@
         "image": "https://www.trytoprogram.com/images/python-directory-management.jpg",
         "title": "Understanding Dictionaries in Python",
         "description": "Key-value pairs for data storage in Python."
+    },
+    {
+        "id": "unique_blog_id_7",
+        "image": "https://www.boardinfinity.com/blog/content/images/2023/05/Generator-in-Python.png",
+        "title": "Understanding Generators in Python",
+        "description": "Memory-efficient iterators for large datasets."
     }
 ]
