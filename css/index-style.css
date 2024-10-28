@@ -1,9 +1,7 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-}
-
+} */
 body {
   background: linear-gradient(135deg, #ece9e6, #ffffff);
   font-family: 'Outfit', 'Rubik', sans-serif;
