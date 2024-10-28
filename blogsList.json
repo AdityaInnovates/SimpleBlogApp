@@ -24,10 +24,10 @@
     "description": "The Counting Occurrences algorithm is a simple way to find how many times a specific element appears in an array. It works by iterating through each element in the array and counting each match to the target value. This approach is useful in both sorted and unsorted arrays."
   },
   {
-    "id": "blog_id_4",  
-    "image": "public/blog1.jpeg",  
-    "title": "Understanding Recursion in Python",  
-    "description": "A deep dive into recursion, explaining how it works, its use cases, and examples to help understand this fundamental concept in programming." 
+    "id": "blog_id_4",
+    "image": "public/blog1.jpeg",
+    "title": "Understanding Recursion in Python",
+    "description": "A deep dive into recursion, explaining how it works, its use cases, and examples to help understand this fundamental concept in programming."
   },
   {
     "id": "blog_id_5",
@@ -35,16 +35,16 @@
     "title": "Understanding List Comprehensions in Python",
     "description": "A concise way to create lists in Python."
   },
-    {
-        "id": "blog_id_6",
-        "image": "https://www.trytoprogram.com/images/python-directory-management.jpg",
-        "title": "Understanding Dictionaries in Python",
-        "description": "Key-value pairs for data storage in Python."
-    },
-    {
-      "id": "Bubble_Sort_Vlog",
-        "image": "https://cdn.educba.com/academy/wp-content/uploads/2020/03/bubble-sort-algprithm.jpg",
-        "title": "Understanding Bubble Sorting in Python",
-        "description": "Algorithm for Bubble Sort in Python."
-    }
+  {
+    "id": "blog_id_6",
+    "image": "https://www.trytoprogram.com/images/python-directory-management.jpg",
+    "title": "Understanding Dictionaries in Python",
+    "description": "Key-value pairs for data storage in Python."
+  },
+  {
+    "id": "Bubble_Sort_Vlog",
+    "image": "https://cdn.educba.com/academy/wp-content/uploads/2020/03/bubble-sort-algprithm.jpg",
+    "title": "Understanding Bubble Sorting in Python",
+    "description": "Algorithm for Bubble Sort in Python."
+  }
 ]
