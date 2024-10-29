@@ -86,5 +86,11 @@
         "image": "https://media.geeksforgeeks.org/wp-content/uploads/20231130131603/Graph-Representation-of-Undirected-graph-to-Adjacency-List.png",
         "title": "Understanding Adjacency list",
         "description": "Graphs Adjacenct list"
+    },
+    {
+      "id": "Effective_Coding_Tips_Blog",
+        "image": "https://www.freecodecamp.org/news/content/images/size/w2000/2023/05/pexels-ken-tomita-389819.jpg",
+        "title": "Tips for writing clean code ",
+        "description": "Learn essential tips for writing efficient and maintainable code"
     }
 ]
