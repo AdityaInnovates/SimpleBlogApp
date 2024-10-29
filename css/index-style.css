@@ -35,12 +35,9 @@ body {
 .container-item > .img-wrapper > img:hover {
   cursor: pointer;
 }
-.container-item > .img-wrapper:hover + h3 {
-  text-decoration: underline;
-}
+
 .container-item > h3 {
-  transition: all;
-  transition-duration: 200ms;
+  transition: all 200ms;
   cursor: pointer;
   margin: 0rem;
   margin-top: 0.5rem;
@@ -48,11 +45,13 @@ body {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
   overflow: hidden;
+  text-decoration: none; /* Remove underline */
 
   /* text-decoration: solid; */
 }
+
 .container-item > h3:hover {
-  text-decoration: underline;
+  transform: translateY(-5px); /* Move up on hover */
 }
 .container-item > p {
   font-size: 10px;

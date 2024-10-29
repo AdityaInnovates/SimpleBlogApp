@@ -79,7 +79,9 @@
                 blog.id
               }","_self")' src="${blog.image}" alt="">
             </div>
-            <h3>${blog.title}</h3>
+            <h3 onclick='window.open("blog.html?blogid=${
+                blog.id
+              }","_self")'>${blog.title}</h3>
             <p>${blog.description}</p>
             <div>
               <button onclick='window.open("blog.html?blogid=${
