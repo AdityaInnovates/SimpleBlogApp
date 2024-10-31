@@ -31,14 +31,14 @@ Welcome to the **Collaborative DSA Blog Project**! This repository allows contri
    - In the `blogs` folder, create a new markdown file named after your blog ID (e.g., `unique_blog_id.md`).
    - Add the main content of your blog post in the markdown file.
 
-### 2. Frontend Contributions
+###2. Frontend Contributions
 
 If you have coding experience, you're welcome to enhance the project by:
 - Updating the **HTML** and **CSS** files.
 - Adding interactivity with **JavaScript**.
 - Ensuring the website is responsive and visually appealing.
 
-### 3. Feature Requests and Issues
+###3. Feature Requests and Issues
 
 If you'd like to suggest a new feature:
 1. **Create an Issue**: Briefly describe the feature or problem and label it appropriately.
