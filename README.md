@@ -1,7 +1,7 @@
 # Collaborative DSA Blog Project 
 Star the Repository ⭐️
 
-Welcome to the **Collaborative DSA Blog Project**! This repository allows contributors, regardless of coding experience, to share their knowledge on Data Structures and Algorithms (DSA) with Python. Whether you're a beginner or an experienced coder, your contributions can help students understand DSA problems more effectively.
+Welcome to the **Collaborative DSA Blog Project**! This repository invites contributors of all skill levels to share their knowledge on Data Structures and Algorithms (DSA) using Python. Whether you are a beginner or an experienced coder, your contributions can help students grasp DSA concepts more effectively.
 
 ## 📁 Project Structure
 
