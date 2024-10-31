@@ -12,7 +12,7 @@ Welcome to the **Collaborative DSA Blog Project**! This repository invites contr
 
 ### 1. Adding a New Blog Post
 
-1. **Create a Unique Blog ID**[Random ID Generator](https://www.uuidgenerator.net/):
+1. **Create a Unique Blog ID**([Random ID Generator](https://www.uuidgenerator.net/)):
    - Generate a random unique ID for your blog post.
    
 2. **Update `blogslist.json`**:
