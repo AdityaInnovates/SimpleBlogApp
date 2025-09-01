@@ -14,7 +14,7 @@
   {
     "id": "f1b3w4cbw43sa",
     "image": "https://miro.medium.com/v2/resize:fit:1400/1*TnkzeYKY653YXS9jZ6oapg.png",
-    "title": "Maximum Element in an Array",
+    "title": "Maximum Element in an Array ",
     "description": "The Maximum Element algorithm is a simple way to find the largest number in an array. Starting with an initial assumption of the maximum element, we iterate through each element in the array, updating our assumption whenever we find a larger element. This method works well for both sorted and unsorted arrays."
   },
   {
