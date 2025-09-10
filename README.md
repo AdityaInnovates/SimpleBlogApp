@@ -6,7 +6,7 @@ Welcome to the **Collaborative DSA Blog Project**! This repository invites contr
 ## 📁 Project Structure
 
 - **blogslist.json**: A JSON file located in the root directory where contributors add their blog details.
-- **blogs/**: A folder containing markdown files (`.md`) with the body content for each blog.
+- **blogs/**: A folder containing markdown files (`.md`) with the body content for each blog. 
 
 ## 📝 Contribution Guidelines
 
