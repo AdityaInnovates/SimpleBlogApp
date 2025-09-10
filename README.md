@@ -2,24 +2,24 @@
 Star the Repository ⭐️
 
 Welcome to the **Collaborative DSA Blog Project**! This repository invites contributors of all skill levels to share their knowledge on Data Structures and Algorithms (DSA) using Python. Whether you are a beginner or an experienced coder, your contributions can help students grasp DSA concepts more effectively.
-
+ 
 ## 📁 Project Structure
-
+ 
 - **blogslist.json**: A JSON file located in the root directory where contributors add their blog details.
-- **blogs/**: A folder containing markdown files (`.md`) with the body content for each blog.
+- **blogs/**: A folder containing markdown files (`.md`) with the body content for each blog. 
 
 ## 📝 Contribution Guidelines
-
+ 
 ### 1. Adding a New Blog Post
 
-1. **Create a Unique Blog ID**([Random ID Generator](https://www.uuidgenerator.net/)):
+1. **Create a Unique Blog ID**([Random ID Generator](https://www.uuidgenerator.net/)): 
    - Generate a random unique ID for your blog post.
    
 2. **Update `blogslist.json`**:
-   - Open `blogslist.json` in the root directory.
+   - Open `blogslist.json` in the root directory. 
    - Add a new entry with the following format:
      ```json
-     {
+     { 
        "id": "unique_blog_id",    // Unique ID for the blog
        "image": "path/to/image",  // Link to the image (if any)
        "title": "Blog Title",     // Title of the blog
